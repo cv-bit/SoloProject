@@ -22,27 +22,44 @@
 			
 			</div>
 			<div id ="nav">
-				<a href="/menu">| menu |</a>
+				<a href="#">| menu |</a>
 				<a href="#" id="button">| login |</a>
-				<a href="/register">| sign up |</a>
+				<a href="#" id="register">| sign up |</a>
 			</div>
 			<div class = "popup">
 				<div class="popup-content">
 					<img src="img/close.jfif" alt="close" class="close" />
-					<input type="text" placeholder= "Username" />
+					<p class="welcome">Welcome Back!</p>
+					<input type="text" placeholder= "Email" />
 					<input type="text" placeholder="password" />
-					<a href="#" id="button">login</a>
+					<input type="submit" value= "Login" class="button" />
+				</div>
+			</div>
+			<div class="register">
+				<div class="register-content">
+				<img src="img/close.jfif" alt="close" class="rclose" />
+					<p class="welcome">earn discounts with every purchase!</p>
+					<input type="text" placeholder= "Email" />
+					<input type="text" placeholder="password" />
+					<input type="text" placeholder="confirm password"/>
+					<input type="submit" value="register" class="button" />
 				</div>
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="script.js">
+	<script type="text/javascript">
 		document.getElementById("button").addEventListener("click", function(){
 			document.querySelector(".popup").style.display = "flex";		
 		})
 		document.querySelector(".close").addEventListener("click", function(){
 			document.querySelector(".popup").style.display = "none";	
+			})
+		document.getElementById("register").addEventListener("click", function(){
+			document.querySelector(".register").style.display = "flex";		
 		})
+		document.querySelector(".rclose ").addEventListener("click", function(){
+			document.querySelector(".register").style.display = "none";	
+			})
 	</script>
 	</body>
 </html>
