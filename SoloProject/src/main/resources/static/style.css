@@ -1,0 +1,79 @@
+.container{
+	width:95%;
+	height: 150rem;
+	border:solid 5px black;
+	border-radius:5px;
+	background-color: orange;
+}
+.logo{
+	width:8rem;
+	height:8rem;
+	margin:5px;
+	border:solid 5px red;
+	float:left;
+	position:relative;
+	
+}
+#head{
+	width:92%;
+	height:8vw;
+	margin:10px 0px 0px 10px;
+	padding:5px;
+	background-color:red;
+	box-shadow:5px 5px 10px black;
+	color:white;
+	font-size:2vw;
+}
+#nav{
+	width:85%;
+	height:5vw;
+	padding:10px;
+	margin-left:5px;
+	background-color:green;
+	box-shadow:5px 5px 10px black;
+}
+a{
+	color:white;
+	font-size:3vw;
+	text-decoration:none;
+}
+a:hover{
+	color:black;
+}
+.popup{
+	background:rgba(0,0,0,.6);
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+.popup-content{
+	height:35%;
+	width:30%;
+	background:green;
+	padding:20px;
+	border-radius:5px;
+	position:relative;
+}
+input{
+	margin:20px auto;
+	display:block;
+	width:75%;
+	padding:8px;
+	border-radius:5px;
+}
+.close{
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	background:white;
+	height:8%;
+	width:5%;
+	border-radius:50%;
+	border:2px solid black;
+	cursor:pointer;
+}
