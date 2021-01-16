@@ -12,38 +12,58 @@
 <c:url value="/img/pizzalogo.jpg" var="Logo"/>
 </head>
 <body>
-	<div id="background">
-		<div class = "container">
-			<img src="img/pizzaLogo.jpg" alt="picture of a pizza" class="logo">
-			<div id = head>
-				<h1>pizza place</h1>
-			</div>
-
-			<div id ="nav">
-				<a href="#">| menu |</a>
-				<a href="#" id="button">| login |</a>
-				<a href="/SignUp" id="register">| sign up |</a>
-			</div>
-			<p id="error">${ error} </p>
-			<h1 id="welcome">Welcome ${user.email}</h1>	<a href="/logout" id="LO">logout</a>		
-			<div class = "popup">
-				<div class="popup-content">
-					<img src="img/close.jfif" alt="close" class="close" />
-					<form action="/login" class="user-form" method="POST" >
-						<p class="welcome">Welcome Back!</p>
-						<div class="form-group">
-							<label for="email">Email</label>
-							<input type="email" name="email" class="form-control" />
-						</div>
-						<div class="form-group">
-					        <label for="password">Password</label>
-					        <input type="password" name="password" class="form-control" />		        
-					    </div>
-					    <input type="submit" value="Login!" class="button"/>
-					</form>
-				</div>
+	<div class = "container">
+		<img src="img/pizzaLogo.jpg" alt="picture of a pizza" class="logo">
+		<div id = head>
+			<h1>pizza place</h1>
+		</div>
+		<div id ="nav">
+			<a href="#">| menu |</a>
+			<a href="#" id="button">| login |</a>
+			<a href="/SignUp" id="register">| sign up |</a>
+		</div>	
+		<p id="error">${ error} </p>
+		<div class = "popup">
+			<div class="popup-content">
+				<img src="img/close.jfif" alt="close" class="close" />
+				<form action="/login" class="user-form" method="POST" >
+					<p class="welcome">Welcome Back!</p>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" name="email" class="form-control" />
+					</div>
+					<div class="form-group">
+				        <label for="password">Password</label>
+				        <input type="password" name="password" class="form-control" />		        
+				    </div>
+				    <input type="submit" value="Login!" class="button"/>
+				</form>
 			</div>
 		</div>
+		<div class="food">
+			<img src="img/lunch2.jfif" alt="picture of a pizza" class="special">
+			<div>
+				<h3>Try our Lunch Special!</h3>
+				<p>Two slices of pizza's, one side, and a drink for only 9.99.</p>
+			</div>
+		</div>
+		<div class="food">	
+			<img src="img/specialty.jfif" alt="picture of a pizza" class="special">
+			<div>
+				<h3>Specialty pizza's</h3>
+				<p>Chef made Pizza's oven grilled to perfection 9.99 everyday.</p>
+			</div>
+		</div>
+		<div class="food">	
+			<img src="img/family.jfif" alt="picture of a pizza" class="special">
+			<div>
+				<h3>Family Special</h3>
+				<p>Three large pizza's of your choice, and a choice of salad, breadsticks or a desert for only 34.99.</p>
+			</div>
+		</div>
+		<div class="footer">
+			
+		</div>	
 	</div>
 	<script type="text/javascript">
 		document.getElementById("button").addEventListener("click", function(){
