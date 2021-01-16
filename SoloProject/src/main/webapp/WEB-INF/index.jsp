@@ -18,31 +18,29 @@
 			<div id = head>
 				<h1>pizza place</h1>
 			</div>
-			<div id = side>
-			
-			</div>
+
 			<div id ="nav">
 				<a href="#">| menu |</a>
 				<a href="#" id="button">| login |</a>
-				<a href="#" id="register">| sign up |</a>
+				<a href="/SignUp" id="register">| sign up |</a>
 			</div>
+			<p id="error">${ error} </p>
+			<h1 id="welcome">Welcome ${user.email}</h1>	<a href="/logout" id="LO">logout</a>		
 			<div class = "popup">
 				<div class="popup-content">
 					<img src="img/close.jfif" alt="close" class="close" />
-					<p class="welcome">Welcome Back!</p>
-					<input type="text" placeholder= "Email" />
-					<input type="text" placeholder="password" />
-					<input type="submit" value= "Login" class="button" />
-				</div>
-			</div>
-			<div class="register">
-				<div class="register-content">
-				<img src="img/close.jfif" alt="close" class="rclose" />
-					<p class="welcome">earn discounts with every purchase!</p>
-					<input type="text" placeholder= "Email" />
-					<input type="text" placeholder="password" />
-					<input type="text" placeholder="confirm password"/>
-					<input type="submit" value="register" class="button" />
+					<form action="/login" class="user-form" method="POST" >
+						<p class="welcome">Welcome Back!</p>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" name="email" class="form-control" />
+						</div>
+						<div class="form-group">
+					        <label for="password">Password</label>
+					        <input type="password" name="password" class="form-control" />		        
+					    </div>
+					    <input type="submit" value="Login!" class="button"/>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -53,12 +51,6 @@
 		})
 		document.querySelector(".close").addEventListener("click", function(){
 			document.querySelector(".popup").style.display = "none";	
-			})
-		document.getElementById("register").addEventListener("click", function(){
-			document.querySelector(".register").style.display = "flex";		
-		})
-		document.querySelector(".rclose ").addEventListener("click", function(){
-			document.querySelector(".register").style.display = "none";	
 			})
 	</script>
 	</body>

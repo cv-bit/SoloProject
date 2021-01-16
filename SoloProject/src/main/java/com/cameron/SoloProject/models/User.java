@@ -19,10 +19,6 @@ public class User {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
-	@NotEmpty
-	private String firstName;
-	@NotEmpty
-	private String lastName;
 	@Email
 	@NotEmpty
 	private String email;
@@ -43,18 +39,6 @@ public class User {
 	}
 	public void setId(Long id) {
 		this.id = id;
-	}
-	public String getFirstName() {
-		return firstName;
-	}
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-	public String getLastName() {
-		return lastName;
-	}
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
 	}
 	public String getEmail() {
 		return email;
