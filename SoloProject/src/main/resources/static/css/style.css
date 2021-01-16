@@ -6,6 +6,7 @@
 	float:left;
 	position:relative;
 }
+
 .special{
 	width:20%;
 	height:auto;
@@ -13,6 +14,11 @@
 	margin:15px;
 	border-radius:50%;
 }
+
+.special:hover{
+	cursor:pointer;
+}
+
 .food{
 	width:80%;
 	height:auto;
@@ -23,6 +29,7 @@
 	align-items:flex-start;
 	font-size:2vw;
 }
+
 #error{
 	color:red;
 	display:flex;
@@ -31,6 +38,7 @@
 	font-size:2vw;
 	z-index:2;
 }
+
 #head{
 	width:92%;
 	height:8vw;
@@ -41,6 +49,7 @@
 	color:white;
 	font-size:2vw;
 }
+
 #nav{
 	width:85%;
 	height:5vw;
@@ -49,14 +58,17 @@
 	background-color:green;
 	box-shadow:5px 5px 10px black;
 }
+
 a{
 	color:white;
 	font-size:3vw;
 	text-decoration:none;
 }
+
 a:hover{
 	color:black;
 }
+
 .popup{
 	background:rgba(0,0,0,.6);
 	width:100%;
@@ -66,6 +78,7 @@ a:hover{
 	display:none;
 	justify-content:center;
 }
+
 .popup-content{
 	height:10rem;
 	width:20%;
@@ -77,6 +90,7 @@ a:hover{
 	box-shadow: 5px 5px 5px black;
 	position:relative;
 }
+
 input{
 	margin:.5vw auto;
 	display:block;
@@ -84,6 +98,7 @@ input{
 	padding:.2vw;
 	border-radius:5px;
 }
+
 .welcome{
 	font-size:2vw;
 	color:blue;
@@ -91,6 +106,7 @@ input{
 	margin:0 0 0 0;
 	text-align:center;
 }
+
 .close{
 	position:absolute;
 	top:5px;
@@ -101,17 +117,20 @@ input{
 	border-radius:50%;	
 	cursor:pointer;
 }
+
 .button{
 	width:75px;
 	border-radius:5px;
 	border:2px solid black;
 	font-weight:bolder;
 }
+
 .button:hover{
 	cursor:pointer;
 	background-color:#c0c0c0;
 	border:2px solid black;
 }
+
 .footer{
 	width:95%;
 	height:5rem;

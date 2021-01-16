@@ -8,7 +8,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>SoloProject Pizza</title>
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="css/style.css" />
 <c:url value="/img/pizzalogo.jpg" var="Logo"/>
 </head>
 <body>
