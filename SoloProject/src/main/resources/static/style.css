@@ -3,7 +3,6 @@
 	height:auto;
 	margin-right:5px;
 	border:solid 5px black;
-	border-radius:5px;
 	float:left;
 	position:relative;
 }
@@ -39,7 +38,6 @@
 	padding:5px;
 	background-color:red;
 	box-shadow:5px 5px 10px black;
-	border-radius:5px;
 	color:white;
 	font-size:2vw;
 }
@@ -50,7 +48,6 @@
 	margin-left:5px;
 	background-color:green;
 	box-shadow:5px 5px 10px black;
-	border-radius:5px;
 }
 a{
 	color:white;
@@ -116,7 +113,7 @@ input{
 	border:2px solid black;
 }
 .footer{
-	width:92%;
+	width:95%;
 	height:5rem;
 	background-color:black;
 	margin-top:10px;
