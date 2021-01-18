@@ -17,6 +17,7 @@
 
 .special:hover{
 	cursor:pointer;
+	border:3px solid black;
 }
 
 .food{

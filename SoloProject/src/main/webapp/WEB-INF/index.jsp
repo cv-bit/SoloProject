@@ -21,7 +21,7 @@
 			<a href="#">| menu |</a>
 			<a href="#" id="button">| login |</a>
 			<a href="/SignUp" id="register">| sign up |</a>
-		</div>	
+		</div>		
 		<p id="error">${ error} </p>
 		<div class = "popup">
 			<div class="popup-content">
