@@ -44,7 +44,7 @@
 			<img src="img/lunch2.jfif" alt="picture of a pizza" class="special">
 			<div>
 				<h3>Try our Lunch Special!</h3>
-				<p>Two slices of pizza's, one side, and a drink for only 9.99.</p>
+				<p>Two slices of pizza, one side, and a drink for only 9.99.</p>
 			</div>
 		</div>
 		<div class="food">	
