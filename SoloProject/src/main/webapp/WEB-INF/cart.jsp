@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" href="css/cart.css" />
 </head>
 <body>
 	<div class="container">
@@ -17,6 +18,8 @@
 			<a href="#" id="button">| login |</a>
 			<a href="/SignUp" id="register">| sign up |</a>
 		</div>
+		
+		
 		
 		<div class="footer">
 		

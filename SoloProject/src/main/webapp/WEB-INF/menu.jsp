@@ -7,6 +7,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>SoloProject Pizza place</title>
+<link rel="stylesheet" href="css/menu.css" />
 </head>
 <body>
 	<div class="container">
@@ -19,6 +20,11 @@
 			<a href="#" id="button">| login |</a>
 			<a href="/SignUp" id="register">| sign up |</a>
 		</div>
+		
+		<ul>
+			<li>${Item.name} ${Item.lunch.description} ${lunch.price}</li>
+			<li>${Item.name}</li>
+		</ul>
 		
 		<div class="footer">
 		

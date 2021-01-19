@@ -38,6 +38,14 @@ public class UserController {
 			model.addAttribute("user", new User());
 			return "register.jsp";
 		}
+	@GetMapping("/menu")
+		public String menu() {
+		return "menu.jsp";
+	}
+	@GetMapping("/cart")
+	public String cart() {
+		return "cart.jsp";
+	}
 	@PostMapping("/login")
 	public String Login(@RequestParam("email") String email, @RequestParam("password") String password, HttpSession session, RedirectAttributes redirs) {
 		if(!this.uService.authenticateUser(email, password)) {
