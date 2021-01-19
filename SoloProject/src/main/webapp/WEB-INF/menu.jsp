@@ -27,7 +27,8 @@
 		</ul>
 		
 		<div class="footer">
-		
+			<a href="https://github.com/cv-bit/SoloProject.git"><img src="img/github.png" alt="github logo" class="github"></a>
+			<h2>@Camjam.codingDojo</h2>
 		</div>
 	</div>
 </body>

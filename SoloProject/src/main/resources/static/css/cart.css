@@ -39,5 +39,20 @@
 	height:5rem;
 	background-color:black;
 	margin-top:10px;
+	color:white;
+	padding:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.github{
+	width:3rem;
+	height:auto;
+	display:inline-block;
+	border-radius:50%;
+}
+.github:hover{
+	width:4rem;
 }
 
