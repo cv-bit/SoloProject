@@ -14,6 +14,7 @@
 			<h1>pizza place</h1>
 		</div>
 		<div id ="nav">
+			<a href="/">| Home |</a>
 			<a href="/menu">| menu |</a>
 			<a href="#" id="button">| login |</a>
 			<a href="/SignUp" id="register">| sign up |</a>

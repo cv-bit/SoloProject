@@ -13,6 +13,7 @@
 	margin:10px;
 	border-radius:10%;
 	float:right;
+	box-shadow:2px 2px 2px black;
 }
 
 .cart:hover{

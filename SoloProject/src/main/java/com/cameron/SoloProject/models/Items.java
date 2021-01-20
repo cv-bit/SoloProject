@@ -45,4 +45,5 @@ public class Items {
 		this.price = price;
 	}
 	
+	Items lunch = new Items("lunch", "lunch special", 9.99);
 }
