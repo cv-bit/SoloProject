@@ -13,8 +13,8 @@
 	<div class="container">
 		<img src="img/pizzaLogo.jpg" alt="picture of a pizza" class="logo">
 		<div id = head>
-			<h1>pizza place</h1>
 			<img src="img/cart.jfif" alt="cart-logo" class="cart">
+			<h1>pizza place</h1>
 		</div>
 		<div id ="nav">
 			<a href="/">| Home |</a>
