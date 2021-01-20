@@ -44,6 +44,17 @@ h2{
 	box-shadow:5px 5px 10px black;
 }
 
+a{
+	color:white;
+	font-size:3vw;
+	text-decoration:none;
+}
+
+a:hover{
+	color:black;
+}
+
+
 #head{
 	width:100%;
 	height:8vw;

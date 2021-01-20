@@ -25,6 +25,17 @@
 	box-shadow:5px 5px 10px black;
 }
 
+a{
+	color:white;
+	font-size:3vw;
+	text-decoration:none;
+}
+
+a:hover{
+	color:black;
+}
+
+
 .logo{
 	width:15%;
 	height:auto;
@@ -32,6 +43,19 @@
 	border:solid 5px black;
 	float:left;
 	position:relative;
+}
+
+.cart {
+	width:5%;
+	height:auto;
+	margin:10px;
+	border-radius:5%;
+	float:right;
+}
+
+.cart:hover{
+	cursor:pointer;
+	border:2px solid black;
 }
 
 .footer{

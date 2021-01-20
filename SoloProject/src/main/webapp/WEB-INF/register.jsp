@@ -18,7 +18,7 @@
 			<h1>pizza place</h1>
 		</div>
 		<div id ="nav">
-			
+			<a href="/">| Home |</a>
 		</div>
 		<h2>Welcome Sign up and earn rewards!</h1>
 		<div class="RE">
@@ -44,7 +44,7 @@
 		</div>
 		<div class="footer">
 			<a href="https://github.com/cv-bit/SoloProject.git"><img src="img/github.png" alt="github logo" class="github"></a>
-			<h2>@Camjam.codingDojo</h2>
+			<h2>@Cameron.CodingDojo</h2>
 		</div>	
 	</div>
 </body>

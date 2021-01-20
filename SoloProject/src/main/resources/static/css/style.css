@@ -7,6 +7,19 @@
 	position:relative;
 }
 
+.cart{
+	width:4%;
+	height:auto;
+	margin:10px;
+	border-radius:10%;
+	float:right;
+}
+
+.cart:hover{
+	cursor:pointer;
+	border:2px solid black;
+}
+
 .special{
 	width:20%;
 	height:auto;

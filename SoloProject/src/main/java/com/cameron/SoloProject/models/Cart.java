@@ -16,6 +16,12 @@ public class Cart {
 	private Double subtotal;
 	private Double tax;
 	private Double total;
+	
+	public Cart() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Long getId() {
 		return id;
 	}
@@ -46,8 +52,5 @@ public class Cart {
 	public void setTotal(Double total) {
 		this.total = total;
 	}
-	public Cart() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+	
 }

@@ -14,21 +14,46 @@
 		<img src="img/pizzaLogo.jpg" alt="picture of a pizza" class="logo">
 		<div id = head>
 			<h1>pizza place</h1>
+			<img src="img/cart.jfif" alt="cart-logo" class="cart">
 		</div>
 		<div id ="nav">
-			<a href="#">| menu |</a>
-			<a href="#" id="button">| login |</a>
-			<a href="/SignUp" id="register">| sign up |</a>
+			<a href="/">| Home |</a>
 		</div>
 		
-		<ul>
-			<li>${Item.name} ${Item.lunch.description} ${lunch.price}</li>
-			<li>${Item.name}</li>
-		</ul>
+			<table>
+        		<c:forEach items="${Items}" var="item">
+        	    	<tr>
+                		<td>${Item.name}</td>
+        	    	</tr>
+        		</c:forEach>
+   			 </table>
+		
+			<p>${lunch.name}</p>
+			<hr class= "solid"/>
+			<p>${Item.name}</p>
+			<hr class= "solid"/>
+			<p>${lunch.name}</p>
+			<hr class= "solid"/>
+			<p>${lunch.name}</p>
+			<hr class= "solid"/>
+			<p>${lunch.name}</p>
+			<hr class= "solid"/>
+			<p>${lunch.name}</p>
+			<hr class= "solid"/>
+			<p>${lunch.name}</p>
+			<hr class= "solid"/>
+			<p>${lunch.name}</p>
+			<hr class= "solid"/>
+			<p>${lunch.name}</p>
+			<hr class= "solid"/>
+			<p>${lunch.name}</p>
+			<hr class= "solid"/>
+			<p>${lunch.name}</p>
+			<hr class= "solid"/>
 		
 		<div class="footer">
 			<a href="https://github.com/cv-bit/SoloProject.git"><img src="img/github.png" alt="github logo" class="github"></a>
-			<h2>@Camjam.codingDojo</h2>
+			<h2>@Cameron.CodingDojo</h2>
 		</div>
 	</div>
 </body>

@@ -15,6 +15,7 @@
 	<div class = "container">
 		<img src="img/pizzaLogo.jpg" alt="picture of a pizza" class="logo">
 		<div id = head>
+			<img src="img/cart.jfif" alt="cart-logo" class="cart">
 			<h1>pizza place</h1>
 		</div>
 		<div id ="nav">
@@ -63,7 +64,7 @@
 		</div>
 		<div class="footer">
 			<a href="https://github.com/cv-bit/SoloProject.git"><img src="img/github.png" alt="github logo" class="github"></a>
-			<h2>@Camjam.codingDojo</h2>
+			<h2>@Cameron.CodingDojo</h2>
 		</div>	
 	</div>
 	<script type="text/javascript">
