@@ -15,7 +15,7 @@
 	<div class = "container">
 		<img src="img/pizzaLogo.jpg" alt="picture of a pizza" class="logo">
 		<div id = head>
-			<img src="img/cart.jfif" alt="cart-logo" class="cart">
+			<a href="/cart"><img src="img/cart.jfif" alt="cart-logo" class="cart"></a>
 			<h1>pizza place</h1>
 		</div>
 		<div id ="nav">
