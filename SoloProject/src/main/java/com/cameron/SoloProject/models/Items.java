@@ -1,16 +1,30 @@
 package com.cameron.SoloProject.models;
 
-public class Items {
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
+@Entity
+@Table(name="items")
+public class Items {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	private String name;
 	private String description;
 	private Double price;
 	
-	public Items(String name, String description, Double price) {
-		this.name = name;
-		this.description = description;
-		this.price = price;
+	@ManyToOne(fetch=FetchType.LAZY)
+	@JoinColumn(name="items_id")
+	private Items items;
+	
+	public Items() {
+		super();
 	}
 
 	public Long getId() {
@@ -45,5 +59,4 @@ public class Items {
 		this.price = price;
 	}
 	
-	Items lunch = new Items("lunch", "lunch special", 9.99);
 }

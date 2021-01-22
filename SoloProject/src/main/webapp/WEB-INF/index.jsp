@@ -23,7 +23,7 @@
 			<a href="#" id="button">| login |</a>
 			<a href="/SignUp" id="register">| sign up |</a>
 		</div>	
-		<h1>welcome ${user.email}</h1>	
+		
 		<p id="error">${ error} </p>
 		<div class = "popup">
 			<div class="popup-content">

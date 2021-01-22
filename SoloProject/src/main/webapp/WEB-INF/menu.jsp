@@ -5,6 +5,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+		rel="stylesheet" 
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+		crossorigin="anonymous">
 <meta charset="ISO-8859-1">
 <title>SoloProject Pizza place</title>
 <link rel="stylesheet" href="css/menu.css" />
@@ -20,37 +24,25 @@
 			<a href="/">| Home |</a>
 		</div>
 		
-			<table>
-        		<c:forEach items="${Items}" var="item">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>name</th>
+						<th>description</th>
+						<th>price</th>
+					</tr>
+				</thead>
+				<tbody>
+        		<c:forEach items="${allItems}" var="items">
+        		
         	    	<tr>
-                		<td>${Item.name}</td>
+        	    		<td><a href="#">${Items.name}</a></td>
+                		<td>${Items.description}</td>
+                		<td>${Items.price}</td>
         	    	</tr>
         		</c:forEach>
+        		</tbody>
    			 </table>
-		
-			<p>${lunch.name}</p>
-			<hr class= "solid"/>
-			<p>${Item.name}</p>
-			<hr class= "solid"/>
-			<p>${lunch.name}</p>
-			<hr class= "solid"/>
-			<p>${lunch.name}</p>
-			<hr class= "solid"/>
-			<p>${lunch.name}</p>
-			<hr class= "solid"/>
-			<p>${lunch.name}</p>
-			<hr class= "solid"/>
-			<p>${lunch.name}</p>
-			<hr class= "solid"/>
-			<p>${lunch.name}</p>
-			<hr class= "solid"/>
-			<p>${lunch.name}</p>
-			<hr class= "solid"/>
-			<p>${lunch.name}</p>
-			<hr class= "solid"/>
-			<p>${lunch.name}</p>
-			<hr class= "solid"/>
-		
 		<div class="footer">
 			<a href="https://github.com/cv-bit/SoloProject.git"><img src="img/github.png" alt="github logo" class="github"></a>
 			<h2>@Cameron.CodingDojo</h2>

@@ -1,5 +1,7 @@
 package com.cameron.SoloProject.controllers;
 
+import java.util.List;
+
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
@@ -13,7 +15,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import com.cameron.SoloProject.models.Items;
 import com.cameron.SoloProject.models.User;
+import com.cameron.SoloProject.services.ItemService;
 import com.cameron.SoloProject.services.UserService;
 import com.cameron.SoloProject.vallidations.UserValidator;
 
@@ -24,6 +28,7 @@ public class UserController {
 	@Autowired
 	private UserValidator validator;
 	
+	//find out whats wrong with this
 	@GetMapping("/")
 	public String root() {
 		return "index.jsp";
@@ -38,10 +43,7 @@ public class UserController {
 			model.addAttribute("user", new User());
 			return "register.jsp";
 		}
-	@GetMapping("/menu")
-		public String menu() {
-		return "menu.jsp";
-	}
+	
 	@GetMapping("/cart")
 	public String cart() {
 		return "cart.jsp";

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.cameron.SoloProject.models.Items;
 import com.cameron.SoloProject.repositories.ItemRepository;
 
-/*@Service
+@Service
 public class ItemService {
 	@Autowired
 	private ItemRepository IRepo;
@@ -20,4 +20,4 @@ public class ItemService {
 	public Items getById(Long id) {
 		return this.IRepo.findById(id).orElse(null);
 	}
-}*/
+}

@@ -16,6 +16,13 @@
 	box-shadow:2px 2px 2px black;
 }
 
+.LO{
+	color:red;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
 .cart:hover{
 	cursor:pointer;
 	border:2px solid black;
