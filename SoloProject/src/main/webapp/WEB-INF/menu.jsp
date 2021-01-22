@@ -37,7 +37,7 @@
         	    	<tr>
         	    		<td><a href="#" class="menu">${item.name}</a></td>
                 		<td>${item.description}</td>
-                		<td>${item.price}</td>
+                		<td class= "price">${item.price}</td>
         	    	</tr>
         		</c:forEach>
         		</tbody>

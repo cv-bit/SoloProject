@@ -1,11 +1,16 @@
 @charset "ISO-8859-1";
 .menu{
 	color:black;
-	font-size:1vw;
+	font-size:1.3vw;
 	font-weight:bold;
 }
 .menu:hover{
 	color:red;
+}
+
+.price{
+	color:green;
+	font-size:1.3vw;
 }
 
 .container{
