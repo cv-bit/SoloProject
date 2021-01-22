@@ -5,10 +5,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-		rel="stylesheet" 
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-		crossorigin="anonymous">
 <meta charset="ISO-8859-1">
 <title>SoloProject Pizza place</title>
 <link rel="stylesheet" href="css/menu.css" />
@@ -36,7 +32,7 @@
         		<c:forEach items="${allItems}" var="item">   		
         	    	<tr>
         	    		<td><a href="#" class="menu">${item.name}</a></td>
-                		<td>${item.description}</td>
+                		<td class="desc">${item.description}</td>
                 		<td class= "price">${item.price}</td>
         	    	</tr>
         		</c:forEach>
