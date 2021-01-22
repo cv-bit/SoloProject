@@ -11,13 +11,17 @@ import com.cameron.SoloProject.repositories.ItemRepository;
 @Service
 public class ItemService {
 	@Autowired
-	private ItemRepository IRepo;
+	private ItemRepository iRepo; 
+	
+	public ItemService(ItemRepository repo) {
+		this.iRepo = repo;
+	}
 	
 	public List<Items> getItems() {
-		return (List<Items>) this.IRepo.findAll();
+		return (List<Items>) this.iRepo.findAll();
 	}
 	
 	public Items getById(Long id) {
-		return this.IRepo.findById(id).orElse(null);
+		return this.iRepo.findById(id).orElse(null);
 	}
 }

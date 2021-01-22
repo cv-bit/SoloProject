@@ -33,12 +33,11 @@
 					</tr>
 				</thead>
 				<tbody>
-        		<c:forEach items="${allItems}" var="items">
-        		
+        		<c:forEach items="${allItems}" var="item">   		
         	    	<tr>
-        	    		<td><a href="#">${Items.name}</a></td>
-                		<td>${Items.description}</td>
-                		<td>${Items.price}</td>
+        	    		<td><a href="#" class="menu">${item.name}</a></td>
+                		<td>${item.description}</td>
+                		<td>${item.price}</td>
         	    	</tr>
         		</c:forEach>
         		</tbody>

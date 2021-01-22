@@ -1,4 +1,12 @@
 @charset "ISO-8859-1";
+.menu{
+	color:black;
+	font-size:1vw;
+	font-weight:bold;
+}
+.menu:hover{
+	color:red;
+}
 
 .container{
 	width:90%;

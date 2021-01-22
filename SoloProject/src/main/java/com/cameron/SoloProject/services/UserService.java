@@ -12,6 +12,10 @@ public class UserService {
 	@Autowired
 	private UserRepository uRepo;
 	
+	public UserService(UserRepository repo) {
+		this.uRepo = repo;
+	}
+	
 	public User registerUser(User user) {
 		String hash = BCrypt.hashpw(user.getPassword(), BCrypt.gensalt());
 		user.setPassword(hash);
