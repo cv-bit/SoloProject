@@ -1,3 +1,9 @@
+.container{
+	width:90%;
+	height:50rem;
+	margin:auto;
+}
+
 .logo{
 	width:15%;
 	height:auto;

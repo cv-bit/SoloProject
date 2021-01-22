@@ -1,6 +1,7 @@
 .container{
 	width:90%;
 	height:50rem;
+	margin:auto;
 }
 
 .form-group{
@@ -67,7 +68,7 @@ a:hover{
 }
 
 .logo{
-	width:15%;
+	width:17%;
 	height:auto;
 	margin-right:5px;
 	border:solid 5px black;
